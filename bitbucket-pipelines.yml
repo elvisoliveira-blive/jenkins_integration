@@ -1,0 +1,7 @@
+pipelines:
+    branches:
+        default:
+            - step:
+                script:
+                    - chmod +x ./toGithub.sh
+                    - ./toGithub.sh
